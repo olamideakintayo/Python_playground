@@ -9,5 +9,7 @@ def maximum(value1, value2, value3):
 		max_value = value3
 	return max_value
 	
+values = input('Enter the Values: ').split()
+value1, value2, value3 = values
 	
-maximum = print('Enter the values')
+print(f"The maximum value is: {maximum(value1, value2, value3)}")
